@@ -12,7 +12,7 @@ This project is a personal portfolio utilizing Bootstrap framework to deliver a 
 - sticky footer
 - frequent descriptive commits
 
-#Gallery 
+# Gallery 
 
 Desktop 
 <a href=""><img src="https://i.imgur.com/6AdOHGt.png" alt="Screenshot of portfolio02" /></a>
