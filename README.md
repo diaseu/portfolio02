@@ -12,7 +12,11 @@ This project is a personal portfolio utilizing Bootstrap framework to deliver a 
 - sticky footer
 - frequent descriptive commits
 
+#Gallery 
+
+Desktop 
 <a href=""><img src="https://i.imgur.com/6AdOHGt.png" alt="Screenshot of portfolio02" /></a>
+<img src="https://i.imgur.com/r0UA5R5.png"> <img src="https://i.imgur.com/ifshzDG.png">  
 
 # Usage
 Link to deployed website: https://diaseu.github.io/portfolio02/
