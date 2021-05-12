@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DIA SEU : portfolio02</title>
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="./assets/css/fontawesome.css">
+  <link rel="stylesheet" href="./assets/css/brands.css">
+  <link rel="stylesheet" href="./assets/css/regular.css">
+  <link rel="stylesheet" href="./assets/css/input.css">
+  <link rel="stylesheet" href="./assets/css/colors.css">
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/bootstrap-grid.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="container">
+    <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+      <a href="./index.html" class="d-flex align-items-center text-dark">
+        <img src="./assets/img/ds-logo.png" width="30px" alt="Logo" class="nav-brand" />
+      </a>
+
+      <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+        <a class="caps" href="./about.html">About</a>
+        <a class="caps" href="./portfolio.html">Portfolio</a>
+        <a class="caps" href="./contact.html">contact</a>
+      </nav>
+    </div>
+
+    <div class="p-3 pb-md-4 center">
+      <p class="lead text-muted">Contact</p>
+      <h1 class="fw-light caps">Dia Seu</h1>
+      
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <div class="album py-5 bg-light">
+      <div class="container">
+
+          <div class="row">
+            <form class="col-md-12">
+              <div class="row">
+                <div class="input-field col-md-6">
+                  <input id="first_name" type="text" class="validate">
+                  <label for="first_name">First Name</label>
+                </div>
+                <div class="input-field col-md-6">
+                  <input id="last_name" type="text" class="validate">
+                  <label for="last_name">Last Name</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col-md-12">
+                  <input id="email" type="email" class="validate">
+                  <label for="email">Email</label>
+                </div>
+              </div>
+              <div class="row">
+                <form class="col-md-10">
+                    <div class="col-md-10">
+                      <div class="input-field">
+                        <textarea id="textarea1" class="materialize-textarea"></textarea>
+                        <label for="textarea1">Textarea</label>
+                      </div>
+                    </div>
+
+                  <div class="col-md-2">
+                    <button class="btn black white-text" type="submit" name="action">Submit
+                      
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </form>
+          </div>
+
+      </div>
+    </div>
+
+    <div class="container">
+    
+    
+      <div class="row">
+    
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          
+          <form id="contact-form" name="myForm" class="form" action="#" onsubmit="return validateForm()" method="POST"
+            role="form">
+    
+            <div class="form-group">
+              <label class="form-label" id="nameLabel" for="name"></label>
+              <input type="text" class="form-control" id="name" name="name" placeholder="Your name" tabindex="1">
+            </div>
+    
+            <div class="form-group">
+              <label class="form-label" id="emailLabel" for="email"></label>
+              <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" tabindex="2">
+            </div>
+    
+            <div class="form-group">
+              <label class="form-label" id="subjectLabel" for="sublect"></label>
+              <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" tabindex="3">
+            </div>
+    
+            <div class="form-group">
+              <label class="form-label" id="messageLabel" for="message"></label>
+              <textarea rows="6" cols="60" name="message" class="form-control" id="message" placeholder="Your message"
+                tabindex="4"></textarea>
+            </div>
+    
+            <div class="text-center">
+              <button type="submit" class="btn btn-mod btn-border btn-large">Send Message &nbsp; <i class="material-icons right">send</i></button>
+            </div>
+    
+          </form><!-- End form -->
+        </div><!-- End col -->
+      </div><!-- End row -->
+    </div><!-- End container -->
+
+
+
+  </main>
+
+  <!-- Social Media -->
+  <section class="social-media">
+    <ul>
+      <li id="social-github">
+        <a id="sm-github" href="https://github.com/diaseu" target="_blank" class="greensock-light replace">
+          <i class="fab fa-github"></i></a>
+      </li>
+      <li id="social-linkedin">
+        <a id="sm-linkedin" href="http://dribbble.com/mypoorbrain" target="_blank" class="greensock-light replace">
+          <i class="fab fa-linkedin"></i></a>
+      </li>
+      <li id="social-discord">
+        <a id="sm-discord" href="https://discord.gg/Ff88Ww6ASB" target="_blank" class="greensock-light replace">
+          <i class="fab fa-discord"></i>
+      </li>
+      <li id="social-email">
+        <a id="sm-email" href="mailto:dummyemail@gmail.com" target="_blank" class="greensock-light replace">
+          <i class="material-icons">email</i>
+      </li>
+    </ul>
+  </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p class="right"><a href="#"><i class="material-icons">arrow_upward</i></a></p>
+        <p>&copy; Dia Seu 2021</p>
+      </div>
+    </footer>
+
+
+  <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="./assets/js/materialize.min.js"></script>
+
+</body>
+
+</html>
