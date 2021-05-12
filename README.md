@@ -14,8 +14,10 @@ This project is a personal portfolio utilizing Bootstrap framework to deliver a 
 
 # Gallery 
 
-Desktop 
+#### Desktop 
 <img src="https://i.imgur.com/6AdOHGt.png" alt="Screenshot of portfolio02" />
+
+#### Mobile
 <img src="https://i.imgur.com/r0UA5R5.png"> <img src="https://i.imgur.com/ifshzDG.png">  
 
 # Usage
