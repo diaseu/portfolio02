@@ -14,6 +14,9 @@ This project is a personal portfolio utilizing Bootstrap framework to deliver a 
 
 <a href=""><img src="https://i.imgur.com/6AdOHGt.png" alt="Screenshot of portfolio02" /></a>
 
+# Usage
+Link to deployed website: https://diaseu.github.io/portfolio02/
+ 
 ## Credits
 
 - Bootstrap framework
