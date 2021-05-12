@@ -18,7 +18,7 @@ This project is a personal portfolio utilizing Bootstrap framework to deliver a 
 <img src="https://i.imgur.com/6AdOHGt.png" alt="Screenshot of portfolio02" />
 
 #### Mobile
-<img src="https://i.imgur.com/r0UA5R5.png"> <img src="https://i.imgur.com/ifshzDG.png">  
+<img src="https://i.imgur.com/r0UA5R5.png"> <img src="https://i.imgur.com/mEaw51r.png"> <img src="https://i.imgur.com/ifshzDG.png">  
 
 # Usage
 Link to deployed website: https://diaseu.github.io/portfolio02/
