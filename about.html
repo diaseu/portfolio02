@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="./assets/css/bootstrap-grid.css">
   <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/darkmode.css">
 
 </head>
 
@@ -93,19 +94,29 @@
     </ul>
   </section>
 
-  <!-- Footer -->
-  <footer>
-    <div class="container">
-      <p class="float-end mb-1">
-        <a href="#"><i class="material-icons">arrow_upward</i></a>
-      </p>
-      <p class="mb-1">&copy; Dia Seu 2021</p>
-    </div>
-  </footer>
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p class="right"><a href="#"><i class="material-icons">arrow_upward</i></a></p>
+        <p>&copy; Dia Seu 2021</p>
+    
+        <!-- DM Switch -->
+        <div class="switch">
+          <label>
+            Light
+            <input id="dmCheck" type="checkbox">
+            <span id="dmLever" class="lever"></span>
+            Dark
+          </label>
+        </div>
+      </div>
+    </footer>
 
 
   <!-- Javascript -->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  <script src="./assets/js/darkmode.js"></script>
 
 </body>
 </html>

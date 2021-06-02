@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="h-100">
+<html lang="en" class="h-100" data-theme="light">
 
 <head>
   <meta charset="UTF-8">
@@ -16,6 +16,8 @@
   <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="./assets/css/bootstrap-grid.css">
   <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/darkmode.css">
+  <link rel="stylesheet" href="./assets/css/dotbg.css">
 </head>
 
 <body class="d-flex h-100 text-center">
@@ -31,7 +33,9 @@
         <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
           <a class="caps" href="./about.html">About</a>
           <a class="caps" href="./portfolio.html">Portfolio</a>
-          <a class="caps" href="./contact.html">contact</a>
+          <a class="caps" href="./contact.html">Contact</a>
+            
+
         </nav>
       </div>
     </header>
@@ -69,6 +73,16 @@
       <div class="container">
         <p class="right"><a href="#"><i class="material-icons">arrow_upward</i></a></p>
         <p>&copy; Dia Seu 2021</p>
+
+        <!-- DM Switch -->
+        <div class="switch">
+          <label>
+            Light
+            <input id="dmCheck" type="checkbox">
+            <span id="dmLever" class="lever"></span>
+            Dark
+          </label>
+        </div>
       </div>
     </footer>
 
@@ -78,6 +92,8 @@
   <script src="./assets/js/bootstrap.bundle.min.js"></script>
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="./assets/js/materialize.min.js"></script>
+  <script src="./assets/js/darkmode.js"></script>
+  <script src="./assets/js/dotbg.js"></script>
 
 
 </body>
