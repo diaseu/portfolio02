@@ -184,3 +184,7 @@ textarea {
        font-size: 11px;
     }
 }
+
+.spacer {
+  min-height: 20vh;
+}
